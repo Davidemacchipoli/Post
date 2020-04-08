@@ -31,7 +31,7 @@ p.draw = function() {
   // We are going to draw a polygon out of the wave points
   p.beginShape();
 
-  var xoff = 0;       // Option #1: 2D Noise
+  var xoff = -500;       // Option #1: 2D Noise
   // float xoff = yoff; // Option #2: 1D Noise
 
 
