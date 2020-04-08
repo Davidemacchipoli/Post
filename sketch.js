@@ -36,7 +36,7 @@ p.draw = function() {
 
 
   // Iterate over horizontal pixels
-  for (var x = 0; x <= p.width; x += 20) {
+  for (var x = 0; x <= p.width +40 ; x += 20) {
     // Calculate a y value according to noise, map to
 
     // Option #1: 2D Noise
@@ -73,7 +73,7 @@ p.draw = function() {
 
 p.fill(0, 0,0);
       p.text('To see the complete map',p.displayWidth/2.9, p.displayHeight/5.8);
-  p.fill(15+(p.frameCount % 80)*5);  
+  p.fill(15+(p.frameCount % 80)*5);
   p.text('Join us on Teams!',p.displayWidth/2.9, p.displayHeight/4.4);
 
 
