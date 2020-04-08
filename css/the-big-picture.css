@@ -13,6 +13,8 @@ body {
   -o-background-size: cover;
   background: black;
   color: #999;
+  overflow-x: hidden;
+  overflow-y: hidden;
 
 }
 
