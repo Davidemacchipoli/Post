@@ -71,10 +71,10 @@ p.draw = function() {
     p.fill(0,0,0);
 
 
-  p.fill(15+(p.frameCount % 80)*5);
-      p.text('Processing your map...',p.displayWidth/2.9, p.displayHeight/5.8);
-  p.fill(0, 0,0);
-  p.text('Join Teams soon!',p.displayWidth/2.9, p.displayHeight/4.4);
+p.fill(0, 0,0);
+      p.text('To see the complete map',p.displayWidth/2.9, p.displayHeight/5.8);
+  p.fill(15+(p.frameCount % 80)*5);  
+  p.text('Join us on Teams!',p.displayWidth/2.9, p.displayHeight/4.4);
 
 
   p.stroke(149, 211, 214, 80);
